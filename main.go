@@ -76,5 +76,6 @@ func main() {
 	r.HandleFunc("/", homePage).Methods("GET")
 	r.HandleFunc("/upload", uploadHandler).Methods("POST")
 	log.Fatal(http.ListenAndServe(":8888", r))
+	fmt.Println("starting server on port 8888")
 
 }
