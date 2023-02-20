@@ -20,7 +20,7 @@ To use the API, run the following command:
 go run main.go
 ```
 
-This will start the server on port 8000. You can then make a POST request to the API with a CSV file in the request body. The API will parse the CSV file and return the data in formatted way.
+This will start the server on port 8888. You can then make a POST request to the API with a CSV file in the request body. The API will parse the CSV file and return the data in formatted way.
 
 API Endpoints
 The API has one endpoint:
